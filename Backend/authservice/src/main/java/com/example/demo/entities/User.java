@@ -2,6 +2,7 @@ package com.example.demo.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -17,12 +18,20 @@ public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	int uid;
-	String uname;
+	@Column(nullable = false, unique = true)
+	private String uname;
+	
 	String fname;
 	String lname;
-	String pwd;
-	String email;
-	String phone;
+	@Column(nullable = false)
+	private String pwd;
+	@Column(nullable = false, unique = true)
+	private String email;
+
+	
+	@Column(nullable = false)
+	private String phone;
+	
 	String address;
 
 	@ManyToOne

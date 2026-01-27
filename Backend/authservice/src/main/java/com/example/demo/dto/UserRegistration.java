@@ -1,15 +1,39 @@
 package com.example.demo.dto;
+import jakarta.validation.constraints.*;
 
 public class UserRegistration {
 
-    private String uname;
-    private String fname;
-    private String lname;
-    private String pwd;
-    private String email;
-    private String phno;
-    private String address;
-    private Integer roleId; // use Integer for optional role
+
+	    @NotBlank(message = "Username cannot be empty")
+	    @Size(min = 4, max = 20, message = "Username must be 4–20 characters")
+	    private String uname;
+
+	    @NotBlank(message = "First name is required")
+	    @Pattern(regexp = "^[A-Z][a-z]+$", message = "First name must start with capital letter")
+	    private String fname;
+
+	    @NotBlank(message = "Last name is required")
+	    @Pattern(regexp = "^[A-Z][a-z]+$", message = "Last name must start with capital letter")
+	    private String lname;
+
+	    @NotBlank(message = "Password is required")
+	    @Size(min = 6, message = "Password must be at least 6 characters")
+	    private String pwd;
+
+	    @NotBlank(message = "Email is required")
+	    @Email(message = "Invalid email format")
+	    private String email;
+
+	    @NotBlank(message = "Phone number is required")
+	    @Pattern(regexp = "^[0-9]{10}$", message = "Phone number must be 10 digits")
+	    private String phone;
+
+	    @NotBlank(message = "Address is required")
+	    private String address;
+
+	    @NotNull(message = "Role must be selected")
+	    private Integer rid;
+
 
     // Default constructor
     public UserRegistration() {
@@ -18,16 +42,16 @@ public class UserRegistration {
 
     // Constructor with all fields
     public UserRegistration(String uname, String fname, String lname, String pwd, String email, String phno,
-                            String address, Integer roleId) {
+                            String address, Integer rid) {
         super();
         this.uname = uname;
         this.fname = fname;
         this.lname = lname;
         this.pwd = pwd;
         this.email = email;
-        this.phno = phno;
+        this.phone = phno;
         this.address = address;
-        this.roleId = roleId;
+        this.rid = rid;
     }
 
     // Getters and Setters
@@ -71,12 +95,12 @@ public class UserRegistration {
         this.email = email;
     }
 
-    public String getPhno() {
-        return phno;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setPhno(String phno) {
-        this.phno = phno;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public String getAddress() {
@@ -87,11 +111,11 @@ public class UserRegistration {
         this.address = address;
     }
 
-    public Integer getRoleId() {
-        return roleId;
+    public Integer getRid() {
+        return rid;
     }
 
-    public void setRoleId(Integer roleId) {
-        this.roleId = roleId;
+    public void setRid(Integer rid) {
+        this.rid = rid;
     }
 }
