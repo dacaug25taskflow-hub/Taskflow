@@ -36,10 +36,10 @@ public class UserService {
 		}
 
 		Role role;
-		if (dto.getRoleId() == null) {
+		if (dto.getRid() == null) {
 			throw new RuntimeException("RoleId is required");
 		}
-		role = rolerepo.findById(dto.getRoleId()).orElseThrow(() -> new RuntimeException("Invalid Role ID"));
+		role = rolerepo.findById(dto.getRid()).orElseThrow(() -> new RuntimeException("Invalid Role ID"));
 
 		// get user
 		User user = new User();
@@ -48,7 +48,7 @@ public class UserService {
 		user.setFname(dto.getFname());
 		user.setLname(dto.getLname());
 		user.setEmail(dto.getEmail());
-		user.setPhone(dto.getPhno());
+		user.setPhone(dto.getPhone());
 		user.setAddress(dto.getAddress());
 		user.setRole(role);
 
