@@ -1,7 +1,5 @@
 package com.example.demo.entities;
-
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -15,45 +13,44 @@ import jakarta.persistence.Table;
 @Table(name = "user")
 public class User {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	int uid;
-	@Column(nullable = false, unique = true)
-	private String uname;
-	
-	String fname;
-	String lname;
-	@Column(nullable = false)
-	private String pwd;
-	@Column(nullable = false, unique = true)
-	private String email;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int  uid;
 
-	
-	@Column(nullable = false)
-	private String phone;
-	
-	String address;
+    @Column(nullable = false, unique = true)
+    private String uname;
 
-	@ManyToOne
-	@JoinColumn(name = "rid")
-	@JsonIgnoreProperties("user")
-	Role role;
+    @Column(name = "fname")
+    private String fname;
 
-	public User() {
-		super();
-	}
+    @Column(name = "lname")
+    private String lname;
 
-	public User(int uid, String uname, String fname, String lname, String pwd, String email, String phone,
-			String address, Role role) {
+    @Column(nullable = false)
+    private String pwd;
+
+    @Column(nullable = false, unique = true)
+    private String email;
+
+    @Column(name = "phone")
+    private String phone;
+
+    @Column(name = "address")
+    private String address;
+
+    @ManyToOne
+    @JoinColumn(name = "role_id")
+    @JsonIgnore
+    private Role role;
+
+    public User() {}
+
+	public User(int uid, String uname, String email, String pwd, Role role) {
 		super();
 		this.uid = uid;
 		this.uname = uname;
-		this.fname = fname;
-		this.lname = lname;
-		this.pwd = pwd;
 		this.email = email;
-		this.phone = phone;
-		this.address = address;
+		this.pwd = pwd;
 		this.role = role;
 	}
 
@@ -89,20 +86,20 @@ public class User {
 		this.lname = lname;
 	}
 
-	public String getPwd() {
-		return pwd;
-	}
-
-	public void setPwd(String pwd) {
-		this.pwd = pwd;
-	}
-
 	public String getEmail() {
 		return email;
 	}
 
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	public String getPwd() {
+		return pwd;
+	}
+
+	public void setPwd(String pwd) {
+		this.pwd = pwd;
 	}
 
 	public String getPhone() {
@@ -129,4 +126,9 @@ public class User {
 		this.role = role;
 	}
 
+
 }
+
+
+
+
