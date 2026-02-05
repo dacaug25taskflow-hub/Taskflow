@@ -1,64 +1,45 @@
 package com.example.demo.entities;
 
-import java.util.Set;
-
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="role")
+@Table(name = "role")
 public class Role {
-	 @Id
-	 @GeneratedValue(strategy=GenerationType.IDENTITY)
-	  int rid;
-	 @Column
-	  String rname;
-	 
-	 @OneToMany(mappedBy ="role")
-	 @JsonIgnoreProperties("role")
-	 Set<User> users;
 
-	public Role() {
-		super();
-	}
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int rid;
 
-	public Role(int rid, String rname, Set<User> users) {
-		super();
-		this.rid = rid;
-		this.rname = rname;
-		this.users = users;
-	}
+    @Column(nullable = false, unique = true)
+    private String rname;
 
-	public int getRid() {
-		return rid;
-	}
+    public Role() {}
 
-	public void setRid(int rid) {
-		this.rid = rid;
-	}
+    public Role(int rid, String rname) {
+        this.rid = rid;
+        this.rname = rname;
+    }
 
-	public String getRname() {
-		return rname;
-	}
+    public int getRid() {
+        return rid;
+    }
 
-	public void setRname(String rname) {
-		this.rname = rname;
-	}
+    public void setRid(int rid) {
+        this.rid = rid;
+    }
 
-	public Set<User> getUsers() {
-		return users;
-	}
+    public String getRname() {
+        return rname;
+    }
 
-	public void setUsers(Set<User> users) {
-		this.users = users;
-	}
-	 
-	
+    public void setRname(String rname) {
+        this.rname = rname;
+    }
 }
+

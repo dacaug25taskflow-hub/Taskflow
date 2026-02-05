@@ -1,0 +1,69 @@
+[
+  {
+    "ContainingType": "employee_service.Controllers.EmployeeTasksController",
+    "Method": "GetMyTasks",
+    "RelativePath": "api/employee/tasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "employee_service.Controllers.EmployeeTasksController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/employee/tasks/{taskId}/status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "employee_service.Controllers.EmployeeTasksController",
+    "Method": "GetProfile",
+    "RelativePath": "api/employee/tasks/profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "employee_service.Controllers.EmployeeTasksController",
+    "Method": "GetMyQueries",
+    "RelativePath": "api/employee/tasks/queries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "employee_service.Controllers.EmployeeTasksController",
+    "Method": "RaiseQuery",
+    "RelativePath": "api/employee/tasks/query",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "employee_service.Dto.RaiseQueryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

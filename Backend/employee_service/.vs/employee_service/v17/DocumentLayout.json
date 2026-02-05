@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|c:\\users\\jelly jain\\desktop\\123\\employee_service\\employee_service\\controllers\\employeetaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|solutionrelative:employee_service\\controllers\\employeetaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|c:\\users\\jelly jain\\desktop\\123\\employee_service\\employee_service\\dto\\raisequerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|solutionrelative:employee_service\\dto\\raisequerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|c:\\users\\jelly jain\\desktop\\123\\employee_service\\employee_service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|solutionrelative:employee_service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|c:\\users\\jelly jain\\desktop\\123\\employee_service\\employee_service\\sevices\\employeequeryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|solutionrelative:employee_service\\sevices\\employeequeryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|c:\\users\\jelly jain\\desktop\\123\\employee_service\\employee_service\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|solutionrelative:employee_service\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|c:\\users\\jelly jain\\desktop\\123\\employee_service\\employee_service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|solutionrelative:employee_service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|c:\\users\\jelly jain\\desktop\\123\\employee_service\\employee_service\\models\\taskflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|solutionrelative:employee_service\\models\\taskflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|c:\\users\\jelly jain\\desktop\\123\\employee_service\\employee_service\\sevices\\employeetaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|solutionrelative:employee_service\\sevices\\employeetaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|c:\\users\\jelly jain\\desktop\\123\\employee_service\\employee_service\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|solutionrelative:employee_service\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|c:\\users\\jelly jain\\desktop\\123\\employee_service\\employee_service\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|solutionrelative:employee_service\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|c:\\users\\jelly jain\\desktop\\123\\employee_service\\employee_service\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|solutionrelative:employee_service\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|c:\\users\\jelly jain\\desktop\\123\\employee_service\\employee_service\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|solutionrelative:employee_service\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|c:\\users\\jelly jain\\desktop\\123\\employee_service\\employee_service\\models\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|solutionrelative:employee_service\\models\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|c:\\users\\jelly jain\\desktop\\123\\employee_service\\employee_service\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|solutionrelative:employee_service\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|c:\\users\\jelly jain\\desktop\\123\\employee_service\\employee_service\\models\\domain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497A6C05-12C6-43ED-9232-1410C459584F}|employee_service\\employee_service.csproj|solutionrelative:employee_service\\models\\domain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeTasksController.cs",
+              "DocumentMoniker": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Controllers\\EmployeeTasksController.cs",
+              "RelativeDocumentMoniker": "employee_service\\Controllers\\EmployeeTasksController.cs",
+              "ToolTip": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Controllers\\EmployeeTasksController.cs",
+              "RelativeToolTip": "employee_service\\Controllers\\EmployeeTasksController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAADwv2EAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T07:06:32.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RaiseQueryDto.cs",
+              "DocumentMoniker": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Dto\\RaiseQueryDto.cs",
+              "RelativeDocumentMoniker": "employee_service\\Dto\\RaiseQueryDto.cs",
+              "ToolTip": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Dto\\RaiseQueryDto.cs",
+              "RelativeToolTip": "employee_service\\Dto\\RaiseQueryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T08:37:16.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Sevices\\EmployeeQueryService.cs",
+              "RelativeDocumentMoniker": "employee_service\\Sevices\\EmployeeQueryService.cs",
+              "ToolTip": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Sevices\\EmployeeQueryService.cs",
+              "RelativeToolTip": "employee_service\\Sevices\\EmployeeQueryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T18:04:36.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaskflowdbContext.cs",
+              "DocumentMoniker": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Models\\TaskflowdbContext.cs",
+              "RelativeDocumentMoniker": "employee_service\\Models\\TaskflowdbContext.cs",
+              "ToolTip": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Models\\TaskflowdbContext.cs",
+              "RelativeToolTip": "employee_service\\Models\\TaskflowdbContext.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwAkBAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T19:17:30.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Program.cs",
+              "RelativeDocumentMoniker": "employee_service\\Program.cs",
+              "ToolTip": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Program.cs",
+              "RelativeToolTip": "employee_service\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T18:45:11.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "employee_service\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\appsettings.Development.json",
+              "RelativeToolTip": "employee_service\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-01T18:33:48.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\appsettings.json",
+              "RelativeDocumentMoniker": "employee_service\\appsettings.json",
+              "ToolTip": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\appsettings.json",
+              "RelativeToolTip": "employee_service\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-02T07:10:46.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeTaskService.cs",
+              "DocumentMoniker": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Sevices\\EmployeeTaskService.cs",
+              "RelativeDocumentMoniker": "employee_service\\Sevices\\EmployeeTaskService.cs",
+              "ToolTip": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Sevices\\EmployeeTaskService.cs",
+              "RelativeToolTip": "employee_service\\Sevices\\EmployeeTaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T18:04:15.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Models\\User.cs",
+              "RelativeDocumentMoniker": "employee_service\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Models\\User.cs",
+              "RelativeToolTip": "employee_service\\Models\\User.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T07:10:05.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Models\\Team.cs",
+              "RelativeDocumentMoniker": "employee_service\\Models\\Team.cs",
+              "ToolTip": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Models\\Team.cs",
+              "RelativeToolTip": "employee_service\\Models\\Team.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T07:09:57.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "employee_service\\Models\\Task.cs",
+              "ToolTip": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Models\\Task.cs",
+              "RelativeToolTip": "employee_service\\Models\\Task.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T07:09:33.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "employee_service\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Models\\Role.cs",
+              "RelativeToolTip": "employee_service\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T07:09:33.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Query.cs",
+              "DocumentMoniker": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Models\\Query.cs",
+              "RelativeDocumentMoniker": "employee_service\\Models\\Query.cs",
+              "ToolTip": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Models\\Query.cs",
+              "RelativeToolTip": "employee_service\\Models\\Query.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T07:09:22.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "employee_service\\Models\\Project.cs",
+              "ToolTip": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Models\\Project.cs",
+              "RelativeToolTip": "employee_service\\Models\\Project.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwBsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T07:09:14.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Domain.cs",
+              "DocumentMoniker": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Models\\Domain.cs",
+              "RelativeDocumentMoniker": "employee_service\\Models\\Domain.cs",
+              "ToolTip": "C:\\Users\\jelly jain\\Desktop\\123\\employee_service\\employee_service\\Models\\Domain.cs",
+              "RelativeToolTip": "employee_service\\Models\\Domain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T07:09:01.265Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
